@@ -1,12 +1,15 @@
-const doggy = {
-    name: '멍멍이',
-    sound: '멍멍',
-    age: 2
-};
+const numbers = [1, 2, 3, 4, 5];
 
-for (let key in doggy) {
-    console.log(`${key}: ${doggy[key]}`);
-}
+const avg = numbers.reduce((accumulator, current, index, array) => {
+    if (index === array.length - 1) {
+        return (accumulator + current) / array.length;
+    }
+    return accumulator + current;
+}, 0);
+console.log(avg);
+
+
+
 
 
 
