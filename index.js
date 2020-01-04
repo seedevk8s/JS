@@ -9,6 +9,8 @@ class Animal {
     }
 }
 
+console.log(Animal.prototype.say);
+
 const dog = new Animal('개', '멍멍이', '멍멍');
 const cat = new Animal('고양이', '야용이', '야용');
 
