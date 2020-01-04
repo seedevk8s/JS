@@ -1,16 +1,7 @@
-console.log(!undefined);
-console.log(!null);
-console.log(!0);
-console.log(!'');
-console.log(!NaN);
-console.log(!false);
+const value = { a : 1};
 
-console.log(!3);
-console.log(!'hello');
-console.log(!['array']);
-console.log(![]);
-console.log(!{});
-
-
+if (value) {
+    console.log('value 가 Truthy 하네요');
+}
 
 
