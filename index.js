@@ -1,4 +1,4 @@
-function calculateCircleArea(r = 1) {
+const calculateCircleArea = (r = 1) => {
     return Math.PI * r * r;
 }
 
