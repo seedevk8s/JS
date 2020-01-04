@@ -5,8 +5,6 @@ function print(person) {
     console.log(person.name);
 }
 
-const person = {
-    name: 'John'
-};
+const person = null;
 
-print();
+print(person);
