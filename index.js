@@ -1,14 +1,17 @@
-function getSound(animal) {
-    const sounds = {
-        개: '멍멍!',
-        고양이: '야옹',
-        참색: '짹짹',
-        비둘기: '구구구구'
-    };
-    return sounds[animal] || '...!';
-
+function makeSound(animal) {
+    const tasks = {
+        개: () => {
+            console.log('멍멍');
+        },
+        고양이() {
+            console.log('야옹');
+        },
+        비둘기: function () {
+            console.log('구구구구');
+        }
+    }
 }
 
-console.log(getSound('개'));
-console.log(getSound('비둘기'));
-console.log(getSound('인간'));
+makeSound('개');
+makeSound('비둘기');
+makeSound('인간');
