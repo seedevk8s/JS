@@ -1,6 +1,23 @@
-const value = null;
+const dog = {
+    name: '멍멍이'
+};
 
-const truthy = !!value;
-console.log(truthy);
+function getName(animal) {
+    if (animal) {
+        return animal.name;
+    }
+    return undefined;
+}
+
+const name = getName();
+console.log(name);
+
+
+
+
+
+
+
+
 
 
