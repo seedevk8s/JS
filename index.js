@@ -11,11 +11,13 @@ function makeSound(animal) {
         }
     }
 
-    if (!tasks[animal]) {
+    const task = tasks[animal];
+
+    if (!task) {
         console.log('...!');
         return;
     }
-    tasks[animal]();
+    task();
 }
 
 makeSound('개');
