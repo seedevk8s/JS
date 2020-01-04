@@ -5,9 +5,12 @@ console.log(!'');
 console.log(!NaN);
 console.log(!false);
 
+console.log(!3);
+console.log(!'hello');
+console.log(!['array']);
+console.log(![]);
+console.log(!{});
 
 
-const value = 1 / 'asfd';
-console.log(value);
 
 
