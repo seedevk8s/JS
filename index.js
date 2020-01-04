@@ -1,7 +1,6 @@
-const value = { a : 1};
+const value = null;
 
-if (value) {
-    console.log('value 가 Truthy 하네요');
-}
+const truthy = value ? true : false;
+console.log(truthy);
 
 
