@@ -1,6 +1,6 @@
 const value = null;
 
-const truthy = value ? true : false;
+const truthy = !!value;
 console.log(truthy);
 
 
