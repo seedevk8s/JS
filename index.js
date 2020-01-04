@@ -9,7 +9,16 @@ Animal.prototype.say = function () {
     console.log(this.sound)
 }
 
-Animal.prototype.sharedValue = 1;
+function Dog(name, sound) {
+    Animal.call(this, '개', name, sound);
+}
+
+function Cat(name, sound) {
+    Animal.call(this, '고양이', name, sound);
+}
+
+Dog.prototype = Animal.prototype;
+Cat.prototype = Animal.prototype;
 
 const dog = new Animal('개', '멍멍이', '멍멍');
 const cat = new Animal('고양이', '야용이', '야용');
@@ -17,8 +26,7 @@ const cat = new Animal('고양이', '야용이', '야용');
 dog.say();
 cat.say();
 
-console.log(dog.sharedValue);
-console.log(cat.sharedValue);
+
 
 
 
