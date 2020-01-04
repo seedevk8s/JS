@@ -1,10 +1,13 @@
-function print(person) {
-    if(!person) {
-        return;
-    }
-    console.log(person.name);
-}
+console.log(!undefined);
+console.log(!null);
+console.log(!0);
+console.log(!'');
+console.log(!NaN);
+console.log(!false);
 
-const person = null;
 
-print(person);
+
+const value = 1 / 'asfd';
+console.log(value);
+
+
