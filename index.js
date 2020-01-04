@@ -1,22 +1,17 @@
-function countBiggerThanTen(numbers) {
-    return numbers.reduce((acc, current) => {
-       if (current > 10) {
-           return acc + 1;
-       } else {
-           return acc;
-       }
-    }, 0);
+function Animal(type, name, sound) {
+    this.type = type;
+    this.name = name;
+    this.sound = sound;
+    this.say = function () {
+        console.log(this.sound);
+    }
 }
 
-const count = countBiggerThanTen([1, 2, 3, 5, 10, 20, 30, 40, 50, 60]);
-console.log(count);
+const dog = new Animal('개', '멍멍이', '멍멍');
+const cat = new Animal('고양이', '야용이', '야용');
 
-
-
-
-
-
-
+dog.say();
+cat.say();
 
 
 
