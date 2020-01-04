@@ -1,13 +1,6 @@
-const dog = {
-    name: '멍멍이'
-};
-
-function getName(animal) {
-    return animal && animal.name;
-}
-
-const name = getName(dog);
-console.log(name);
+console.log(true && 'hello');
+console.log(false && 'hello');
+console.log(true && 'bye');
 
 
 
