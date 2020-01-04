@@ -1,5 +1,5 @@
 function print(person) {
-    if(person === undefined || person === null) {
+    if(!person) {
         return;
     }
     console.log(person.name);
