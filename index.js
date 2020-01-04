@@ -3,13 +3,10 @@ const dog = {
 };
 
 function getName(animal) {
-    if (animal) {
-        return animal.name;
-    }
-    return undefined;
+    return animal && animal.name;
 }
 
-const name = getName();
+const name = getName(dog);
 console.log(name);
 
 
