@@ -1,12 +1,11 @@
-const calculateCircleArea = (r = 1) => Math.PI * r * r;
+function isAnimal(text) {
+    return (
+        text === '고양이' || text === '개' || text === '거북이' || text === '너구리'
+    );
+}
 
-const  area = calculateCircleArea();
-console.log(area);
-
-
-
-
-
+console.log(isAnimal('개'));
+console.log(isAnimal('노트북'));
 
 
 
