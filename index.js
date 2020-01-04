@@ -1,6 +1,9 @@
-const array = [];
-let text = array.length === 0
-    ? '배열이 비어있습니다.'
-    : '배열이 비어있지 않습니다.';
+function print(person) {
+    console.log(person.name);
+}
 
-console.log(text);
+const person = {
+    name: 'John'
+};
+
+print(person);
