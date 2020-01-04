@@ -1,7 +1,6 @@
 function isAnimal(text) {
-    return (
-        text === '고양이' || text === '개' || text === '거북이' || text === '너구리'
-    );
+    const animals = ['고양이', '개', '거북이', '너구리'];
+    return animals.includes(text);
 }
 
 console.log(isAnimal('개'));
