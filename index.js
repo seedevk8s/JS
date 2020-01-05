@@ -12,10 +12,18 @@ const purpleCuteSlime = {
     color: 'purple'
 };
 
+const greenCuteSlime = {
+    ...purpleCuteSlime,
+    color: 'green'
+}
+
 console.log(slime);
 console.log(cuteSlime);
 console.log(purpleCuteSlime);
+console.log(greenCuteSlime);
 
+
+console.log(slime === cuteSlime);
 
 
 
