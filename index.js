@@ -1,9 +1,8 @@
-const numbers = [0, 1, 2, 3, 4, 5, 6];
+function sum(a, b, c, d, e, f, g) {
+    return a + b + c + d + e + f + g;
+}
 
-const [one,two, ...rest] = numbers;
-console.log(one);
-console.log(two);
-console.log(rest);
+console.log(sum(1,2,3,4,5,6,7));
 
 
 
