@@ -1,31 +1,21 @@
-const deepObject = {
-    state: {
-        information: {
-            name: 'velopert',
-            languages: ['korean', 'english', 'chinese']
-        }
-    },
-    value: 5
-}
+const slime = {
+    name: '슬라임'
+};
 
-const {
-        name,
-        languages: [first, second]
-} = deepObject.state.information;             // name,languages,value를 바깥으로 꺼내줌
+const cuteSlime = {
+    name: '슬라임',
+    attribute: 'cute'
+};
 
-const { value } = deepObject;
+const purpleCuteSlime = {
+    name: '슬라임',
+    attribute: 'cute',
+    color: 'purple'
+};
 
-const extracted = {
-    name,
-    first,
-    second,
-    value
-}
-console.log(extracted);
-
-
-
-
+console.log(slime);
+console.log(cuteSlime);
+console.log(purpleCuteSlime);
 
 
 
