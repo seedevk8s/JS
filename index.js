@@ -1,13 +1,21 @@
-function max(...numbers) {
-    return numbers.reduce(
-        (acc, current) => (current > acc ? current : acc), numbers[0]
-    );
+const value = 'hello!';
+
+function myFunction() {
+    console.log('myFunction: ');
+    console.log(value);
 }
 
-const result = max(1,2,3,4,10,5,6,7);
-console.log(result);
+function otherFunction() {
+    console.log('otherFunction: ');
+    const value = 'bye';
+    console.log(value);
+}
 
+myFunction();
+otherFunction();
 
+console.log('global scope: ');
+console.log(value);
 
 
 
