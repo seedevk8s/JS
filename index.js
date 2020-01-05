@@ -6,7 +6,7 @@ const animal = {
 const { name: nickname } = animal;
 
 console.log(nickname);
-
+console.log(animal);
 
 
 
