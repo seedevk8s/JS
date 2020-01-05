@@ -12,6 +12,7 @@ console.log(slime);
 console.log(cuteSlime);
 console.log(purpleCuteSlime);
 
+console.log(slime == cuteSlime);
 
 
 
