@@ -1,9 +1,11 @@
-function sum(...rest) {
-    return rest.reduce((acc, current) => acc + current, 0);
+function max(...numbers) {
+    return numbers.reduce(
+        (acc, current) => (current > acc ? current : acc), numbers[0]
+    );
 }
 
-const numbers = [1,2,3,4,5,6,7,8];
-console.log(sum(...numbers));
+const result = max(1,2,3,4,10,5,6,7);
+console.log(result);
 
 
 
