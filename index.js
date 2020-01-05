@@ -2,19 +2,19 @@ const value = 'hello!';
 
 function myFunction() {
     const value = 'bye';
-    const anotherValue = 'world';
-    function functionInside() {
-        console.log('functionInside :');
+    if (true) {
+        const value = 'world';
+        console.log('block scope : ');
         console.log(value);
-        console.log(anotherValue);
     }
-    functionInside();
+    console.log('function scope: ');
+    console.log(value);
 }
 
 myFunction();
 console.log('global scope: ');
 console.log(value);
-console.log(anotherValue);
+
 
 
 
