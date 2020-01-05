@@ -3,7 +3,7 @@ const animal = {
     type: '개'
 };
 
-const nickname = animal.name;
+const { name: nickname } = animal;
 
 console.log(nickname);
 
