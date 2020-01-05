@@ -13,8 +13,9 @@ const purpleCuteSlime = {
 };
 
 const greenCuteSlime = {
-    ...purpleCuteSlime,
-    color: 'green'
+    color: 'green',
+    ...purpleCuteSlime
+
 }
 
 console.log(slime);
