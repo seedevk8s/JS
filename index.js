@@ -7,7 +7,10 @@ const purpleCuteSlime = {
 const { color, ...cuteSlime } = purpleCuteSlime;
 console.log(color);
 console.log(cuteSlime);
-console.log(purpleCuteSlime);
+
+const { attribute, ...slime } = cuteSlime;
+console.log(slime);
+
 
 
 
