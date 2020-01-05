@@ -10,6 +10,7 @@ function work() {
 
 }
 
+console.log('작업 시작!')
 work();
 console.log('다음 작업');
 
