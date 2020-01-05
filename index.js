@@ -1,30 +1,9 @@
-const slime = {
-    name: '슬라임'
-};
+const animals = ['개', '고양이', '참새'];
+const anotherAnimals = [...animals, '비둘기'];
 
-const cuteSlime = {
-    ...slime,
-    attribute: 'cute'
-};
+console.log(animals);
+console.log(anotherAnimals);
 
-const purpleCuteSlime = {
-    ...cuteSlime,
-    color: 'purple'
-};
-
-const greenCuteSlime = {
-    color: 'green',
-    ...purpleCuteSlime
-
-}
-
-console.log(slime);
-console.log(cuteSlime);
-console.log(purpleCuteSlime);
-console.log(greenCuteSlime);
-
-
-console.log(slime === cuteSlime);
 
 
 
