@@ -4,9 +4,9 @@ const purpleCuteSlime = {
     color: 'purple'
 };
 
-const { color, ...rest } = purpleCuteSlime;
+const { color, ...cuteSlime } = purpleCuteSlime;
 console.log(color);
-console.log(rest);
+console.log(cuteSlime);
 console.log(purpleCuteSlime);
 
 
