@@ -9,17 +9,16 @@ const deepObject = {
 }
 
 const {
-    state: {
-        information: {
-            name, languages: [firstLang, secondLang]
-        }
-    },
-    value
-} = deepObject;             // name,languages,value를 바깥으로 꺼내줌
+        name,
+        languages: [first, second]
+} = deepObject.state.information;             // name,languages,value를 바깥으로 꺼내줌
+
+const { value } = deepObject;
 
 const extracted = {
     name,
-    firstLang, secondLang,
+    first,
+    second,
     value
 }
 console.log(extracted);
