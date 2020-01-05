@@ -13,7 +13,7 @@ function subtract(x, y) {
 }
 
 const numbers = [1, 2];
-const result = subtract(1, 2);
+const result = subtract(numbers[0], numbers[1]);
 console.log(result);
 
 
