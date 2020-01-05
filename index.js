@@ -1,15 +1,8 @@
-const purpleCuteSlime = {
-    name: '슬라임',
-    attribute: 'cute',
-    color: 'purple'
-};
+const numbers = [0, 1, 2, 3, 4, 5, 6];
 
-const { color, ...cuteSlime } = purpleCuteSlime;
-console.log(color);
-console.log(cuteSlime);
-
-const { attribute, ...slime } = cuteSlime;
-console.log(slime);
+const [one, ...rest] = numbers;
+console.log(one);
+console.log(rest);
 
 
 
