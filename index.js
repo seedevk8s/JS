@@ -1,12 +1,9 @@
-const animal = {
-    name: '멍멍이',
-    type: '개'
-};
+const array = [1, 2];
 
-const { name: nickname } = animal;
+const [one, two] = array;
 
-console.log(nickname);
-console.log(animal);
+console.log(one);
+console.log(two);
 
 
 
