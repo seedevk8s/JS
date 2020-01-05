@@ -2,17 +2,20 @@ const slime = {
     name: '슬라임'
 };
 
-const cuteSlime = slime;
-cuteSlime.attribut = 'cute';
+const cuteSlime = {
+    ...slime,
+    attribute: 'cute'
+};
 
-const purpleCuteSlime =cuteSlime;
-purpleCuteSlime.color = 'purple';
+const purpleCuteSlime = {
+    ...cuteSlime,
+    color: 'purple'
+};
 
 console.log(slime);
 console.log(cuteSlime);
 console.log(purpleCuteSlime);
 
-console.log(slime == cuteSlime);
 
 
 
