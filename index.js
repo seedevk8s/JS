@@ -1,8 +1,9 @@
-const animals = ['개', '고양이', '참새'];
-const anotherAnimals = animals.concat('비둘기');
+const numbers = [1, 2, 3, 4, 5];
 
-console.log(animals);
-console.log(anotherAnimals);
+const spreadNumbers = [...numbers, 1000, ...numbers];
+console.log(spreadNumbers);
+
+
 
 
 
