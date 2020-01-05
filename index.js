@@ -1,8 +1,13 @@
-const numbers = [1, 2, 3, 4, 5];
+const purpleCuteSlime = {
+    name: '슬라임',
+    attribute: 'cute',
+    color: 'purple'
+};
 
-const spreadNumbers = [...numbers, 1000, ...numbers];
-console.log(spreadNumbers);
-
+const { color, ...rest } = purpleCuteSlime;
+console.log(color);
+console.log(rest);
+console.log(purpleCuteSlime);
 
 
 
