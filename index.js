@@ -3,13 +3,12 @@ const slime = {
 };
 
 const cuteSlime = {
-    name: '슬라임',
+    ...slime,
     attribute: 'cute'
 };
 
 const purpleCuteSlime = {
-    name: '슬라임',
-    attribute: 'cute',
+    ...cuteSlime,
     color: 'purple'
 };
 
